@@ -1,0 +1,6 @@
+{
+  "app/bower_components/vendor/exists-aliased-full-path.js": "app/bower_components/vendor/exists-aliased-full-path-123456.js",
+  "vendor/exists-aliased-partial-path.js": "vendor/exists-aliased-partial-path-123456.js",
+  "scripts/new-full-path.js": "scripts/new-full-path-123456.js",
+  "ignored-sourcemap.js.map": "ignored-sourcemap-123456.js.map"
+}

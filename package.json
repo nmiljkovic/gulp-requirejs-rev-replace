@@ -1,0 +1,42 @@
+{
+  "name": "gulp-requirejs-rev-replace",
+  "version": "0.1.0",
+  "description": "A gulp plugin to replace requirejs modules based on revision manifest.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proof/gulp-requirejs-rev-replace.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "rev",
+    "requirejs"
+  ],
+  "author": "Nemanja Miljkovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/proof/gulp-requirejs-rev-replace/issues"
+  },
+  "homepage": "https://github.com/proof/gulp-requirejs-rev-replace#readme",
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5",
+    "gulp-requirejs-transformconfig": "^0.1.0",
+    "lodash.isundefined": "^3.0.1",
+    "stream-combiner": "^0.2.2",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "mocha": "^3.0.0",
+    "sinon": "^1.17.5",
+    "stream-assert": "^2.0.3"
+  }
+}
